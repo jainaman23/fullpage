@@ -1,0 +1,11 @@
+.fullpage {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+
+  .slide {
+    flex: 0 0 100%;
+  }
+}

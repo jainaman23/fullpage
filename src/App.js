@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Fullpage from "./Fullpage/Fullpage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fullpage>
+      <Fullpage.Slide>
+        <div className="1">HI</div>
+      </Fullpage.Slide>
+      <Fullpage.Slide>
+        <div className="2">Hello</div>
+      </Fullpage.Slide>
+      <Fullpage.Slide>
+        <div className="3">Here</div>
+      </Fullpage.Slide>
+      <Fullpage.Slide>
+        <div className="4">Heyyy</div>
+      </Fullpage.Slide>
+    </Fullpage>
   );
 }
 
